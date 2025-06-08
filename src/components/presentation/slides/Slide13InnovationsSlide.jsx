@@ -12,7 +12,7 @@ const Slide13InnovationsSlide = () => {
           </h3>
           <div className="bg-gray-900 rounded-lg p-4 mb-4">
             <div className="font-mono text-xs text-green-400">
-              <div className="text-blue-300">// Score de pertinence multi-critères</div>
+              <div className="text-blue-300">{`// Score de pertinence multi-critères`}</div>
               <div>const matchingScore = {`{`}</div>
               <div className="ml-2 text-yellow-400">titleRelevance: 0.35,</div>
               <div className="ml-2 text-green-400">skillsMatch: 0.30,</div>
@@ -20,7 +20,7 @@ const Slide13InnovationsSlide = () => {
               <div className="ml-2 text-red-400">locationProximity: 0.10,</div>
               <div className="ml-2 text-blue-400">salaryCompatibility: 0.05</div>
               <div>{`}`};</div>
-              <div className="mt-2 text-gray-400">// Calcul score final pondéré</div>
+              <div className="mt-2 text-gray-400">{`// Calcul score final pondéré`}</div>
               <div>const finalScore = calculateWeightedMatch(job, candidate);</div>
             </div>
           </div>
@@ -47,14 +47,14 @@ const Slide13InnovationsSlide = () => {
           </h3>
           <div className="bg-gray-900 rounded-lg p-4 mb-4">
             <div className="font-mono text-xs text-green-400">
-              <div className="text-green-300">/* Breakpoints intelligents */</div>
+              <div className="text-green-300">{`/* Breakpoints intelligents */`}</div>
               <div>@media (max-width: 768px) {`{`}</div>
               <div className="ml-2">.job-grid {`{`}</div>
               <div className="ml-4">grid-template-columns: 1fr;</div>
               <div className="ml-4">gap: 1rem;</div>
               <div className="ml-2">{`}`}</div>
               <div>{`}`}</div>
-              <div className="mt-2 text-blue-300">/* Dark mode avec préférence système */</div>
+              <div className="mt-2 text-blue-300">{`/* Dark mode avec préférence système */`}</div>
               <div>@media (prefers-color-scheme: dark) {`{`}</div>
               <div className="ml-2">:root {`{`} --bg-primary: #1a1a1a; {`}`}</div>
               <div>{`}`}</div>

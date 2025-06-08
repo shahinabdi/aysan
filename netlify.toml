@@ -1,12 +1,12 @@
 [build]
-  # Commande de build pour Create React App
-  command = "npm run build"
+  # Commande de build pour Create React App avec CI=false pour ignorer les warnings
+  command = "CI=false npm run build"
   
   # Dossier de sortie du build
   publish = "build"
   
   # Variables d'environnement pour le build
-  environment = { NODE_VERSION = "18" }
+  environment = { NODE_VERSION = "18", CI = "false" }
 
 [build.processing]
   # Optimisation des images

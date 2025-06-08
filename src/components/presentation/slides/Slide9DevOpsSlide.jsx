@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, GitBranch, Zap, Settings, CheckCircle, Play, Database, Globe } from 'lucide-react';
+import { Container, GitBranch, Zap, Settings, CheckCircle, Play, Globe } from 'lucide-react';
 
 const Slide9DevOpsSlide = () => {
   return (
