@@ -1,0 +1,11 @@
+# Redirections pour Single Page Application
+# Toutes les routes doivent pointer vers index.html pour React Router
+
+/*    /index.html   200
+
+# Redirections spécifiques si nécessaire
+# /old-path    /new-path    301
+# /api/*       https://your-backend-api.com/api/:splat  200
+
+# Gestion des erreurs
+/404.html    /index.html   200
