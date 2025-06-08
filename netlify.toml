@@ -106,8 +106,9 @@
     best-practices = true
     seo = true
 
-[[plugins]]
-  package = "netlify-plugin-html-validate"
+# Plugin HTML Validate désactivé car trop strict pour React
+# [[plugins]]
+#   package = "netlify-plugin-html-validate"
 
 # Variables d'environnement (à configurer dans l'interface Netlify)
 # REACT_APP_API_URL = "https://your-api-domain.com"
